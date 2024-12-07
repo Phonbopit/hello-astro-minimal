@@ -1,5 +1,7 @@
 # Astro Starter Kit: Minimal
 
+ตัวอย่าง Example code จากบทความ [Astro คืออะไร? มาลองทำเว็บด้วย Astro กันครับ](https://www.devahoy.com/blog/getting-started-with-astro)
+
 ```sh
 npm create astro@latest -- --template minimal
 ```
