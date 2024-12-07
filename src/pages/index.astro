@@ -1,0 +1,12 @@
+---
+import RootLayout from '../layout/RootLayout.astro'
+import ReactCounter from '../component/ReactCounter.jsx'
+
+const title = 'หน้า index Astro'
+---
+
+<RootLayout>
+  <h1>{title}</h1>
+
+  <ReactCounter initialCount={0} client:visible />
+</RootLayout>

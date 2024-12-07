@@ -1,0 +1,19 @@
+---
+import RootLayout from '../../layout/RootLayout.astro'
+
+export function getStaticPaths() {
+  return [
+    { params: { post: 'post-1' } },
+    { params: { post: 'post-2' } },
+    { params: { post: 'post-3' } },
+  ]
+}
+
+const { post } = Astro.params
+---
+
+<RootLayout>
+  <div>
+    <h1>{post}</h1>
+  </div>
+</RootLayout>
